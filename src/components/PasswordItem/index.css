@@ -1,0 +1,57 @@
+.password-item-container {
+  width: 30%;
+  border: 1px solid #9ba9eb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.password-item-letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 25%;
+  border-radius: 30px;
+  background-color: #7683cb;
+  font-weight: normal;
+}
+
+.password-item-content {
+  width: 70%;
+  margin-left: 20px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border-width: 0px;
+  width: 15%;
+  cursor: pointer;
+}
+
+.delete-image {
+  height: 30px;
+  width: 30px;
+}
+
+p {
+  margin: 0px;
+}
+
+.stars {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .password-item-container {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .password-item-letter {
+    width: 20%;
+  }
+}
